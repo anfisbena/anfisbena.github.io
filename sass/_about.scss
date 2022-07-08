@@ -1,6 +1,9 @@
 .background_special{
-  background-image: url(../assets/images/background\ yatch.jpg);
   text-align: center;
-  color: white;
+  color: red;
+  overflow: hidden;
   
+  & img{
+width: 100%;
+  }
 }
